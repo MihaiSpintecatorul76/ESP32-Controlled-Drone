@@ -14,7 +14,6 @@ The firmware will be programmed in **C++ using the Arduino framework**, and the 
 
 ## Current Status
 - **Hardware assembly:** complete  
-- **PCB design:** complete and tested  
 - **Firmware:** ESP32 programming in progress  
 - **Wi-Fi server:** planned for remote control  
 
