@@ -1,4 +1,4 @@
-# ESP32 PID Drone
+# ESP32 Drone
 
 ## Project Overview
 This project is a **custom-built quadcopter drone** controlled by an **ESP32 microcontroller**. The drone integrates an **MPU6050 IMU sensor** and **four ESCs** for motor control. The system is designed to run on **FreeRTOS**, with a **PID control algorithm** for real-time stabilization.  
