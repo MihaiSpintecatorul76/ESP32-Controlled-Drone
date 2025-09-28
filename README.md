@@ -3,14 +3,14 @@
 ## Project Overview
 This project is a **custom-built quadcopter drone** controlled by an **ESP32 microcontroller**. The drone integrates an **MPU6050 IMU sensor** and **four ESCs** for motor control. The system is designed to run on **FreeRTOS**, with a **PID control algorithm** for real-time stabilization.  
 
-The firmware is programmed in **C++ using the Arduino framework**, and the ESP32 will be configured as a **Wi-Fi server** for remote monitoring and control.
+The firmware will be programmed in **C++ using the Arduino framework**, and the ESP32 will be configured as a **Wi-Fi server** for remote monitoring and control.
 
 ## Features
-- Custom-designed **PCB** connecting microcontroller, sensors, and motor controllers  
-- **FreeRTOS-based firmware** for real-time task management  
-- **PID algorithm** for stable flight  
-- **Wi-Fi server** for remote monitoring and control (planned)  
-- **LEDC motor control**: each motor runs on a separate PWM channel  
+- Custom-designed **PCB** connecting microcontroller, sensors, and motor controllers
+
+## Planned Features
+- Fully functional ESP32 firmware integrating real-time PID stabilization  
+- Remote control via Wi-Fi interface   
 
 ## Current Status
 - **Hardware assembly:** complete  
@@ -27,12 +27,6 @@ The firmware is programmed in **C++ using the Arduino framework**, and the ESP32
 - **Motor control:** LEDC PWM channels  
 - **Sensors:** MPU6050 IMU  
 
-## Planned Features
-- Fully functional ESP32 firmware integrating real-time PID stabilization  
-- Remote control via Wi-Fi interface  
-- Telemetry dashboard for monitoring flight parameters  
-- Optional integration with additional sensors for enhanced stability  
-
 ## Project Goals
 - Gain hands-on experience with **embedded systems and real-time control**  
 - Develop skills in **PCB design, motor control, and sensor integration**  
@@ -40,11 +34,6 @@ The firmware is programmed in **C++ using the Arduino framework**, and the ESP32
 - Create a platform for **future enhancements** in autonomous drone systems  
 
 ## Getting Started
-This repository currently contains hardware design files and initial firmware setup. Once firmware development is complete, instructions for programming the ESP32 and running the drone will be added.  
+This repository currently contains hardware design files. Once firmware development is complete, instructions for programming the ESP32 and running the drone will be added.  
 
-## Contributing
-Contributions are welcome! Please open issues or pull requests for suggestions, improvements, or testing.  
-
-## License
-[Add your license here, e.g., MIT License]  
 
